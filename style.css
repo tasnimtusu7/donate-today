@@ -14,21 +14,36 @@ margin: 0%;
     text-align: center;
 
 }
-.botton-link{
+.bottonf{
     text-decoration: none;
-    background-image: linear-gradient( orange, tomato);
+    background-image: linear-gradient(orangered, tomato);
     border-radius: 5%;
-    color: black;
+    color:black;
     padding: 10px 20px;
+    margin-top: 100px;
+}
+.bottons{
+    text-decoration: none;
+    background-image: linear-gradient(purple,pink);
+    border-radius: 5%;
+    color:black;
+    padding: 40px,20px;
+    margin-top: 100px;
 }
 .bold{
     font-size: 60px;
     margin: 10px;
     font-weight: bold;
     color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 .text1{
-    font-size: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 17px;
     color: white;
 }
 
@@ -39,6 +54,16 @@ margin: 0%;
 .containar{
     display: flex;
     justify-content: space-evenly;
+    margin: 30px 100px;
+}
+.today{
+    font-size: 40px;
+}
+.todaytwo{
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    font-size: 17px;
 }
 .donate{
     height: 60px;
@@ -91,12 +116,31 @@ margin: 0%;
 .get{
     font-size: 40px;
 }
+.sections{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.lives{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+.picture{
+    border-radius: 7%;
+    margin-right:80px;
+    margin-left: 80px;
+}
+.loremtwo{
+    margin-left: 10px;
+    margin-right: 80px; 
+}
 .boxfour{
     height: 150px;
     width: 600px;
     padding: 10px;
     background-color: rgb(249, 231, 249);
-    margin: 40px;
+    margin: 40px 30%;
     display: flex;
     justify-items: center;    
 }
