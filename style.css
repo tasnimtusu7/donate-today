@@ -62,7 +62,26 @@ margin: 0%;
 }
 .box{
    display: flex;
+   display: flexbox;
 }
 .boxone{
-
+    height: 200px;
+    width:500px;
+    padding:10px;
+    background-color: antiquewhite;
+    margin: 40px;
+}
+.boxtwo{
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(208, 202, 179);
+    margin: 40px;
+}
+.boxthree{
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(213, 160, 213);
+    margin: 40px;
 }
